@@ -1,0 +1,29 @@
+[
+  [0, "^(sample1|sample2)$", "Sample Cases"],
+  [
+    18,
+    "^(H4|sub1-valley-asc|sub1-valley-desc|H5|H3|sub1-order-LR|H6|sub1-random-R|sub1-circle-flat|H2|H1|sample1|sub1-order-RL|sub1-random-L|H7|sub1-descending-special|H8|sub1-circle|sub1-random-half)$",
+    "Subtask 1"
+  ],
+  [
+    18,
+    "^(H4|sub1-valley-asc|sub2-valley-asc|sub2-descending-special|sub2-order-LR|sub1-valley-desc|H5|H3|sub1-order-LR|sub3-random-L|H6|sub2-random-half|sub1-random-R|sub1-circle-flat|H2|H1|sub2-random-R|sample1|sub2-circle-flat|sub1-order-RL|sub2-valley-desc|sub1-random-L|sub2-order-RL|sub2-random-L|H7|sub1-descending-special|sub2-circle|H8|sub1-circle|sub1-random-half)$",
+    "Subtask 2"
+  ],
+  [
+    20,
+    "^(H4|sub3-random-R|sub3-circle|sub3-random-half|sub1-valley-asc|sub2-valley-asc|sub3-valley-desc|sub2-descending-special|sub2-order-LR|sub1-valley-desc|H5|sub5-random-R|H3|sub1-order-LR|sub3-random-L|H6|sub3-circle-flat|sub2-random-half|sub1-random-R|sub4-random-R|sub3-order-LR|sub1-circle-flat|H2|H1|sub3-descending-special|sub2-random-R|sample1|sub2-circle-flat|sub1-order-RL|sub3-order-RL|sub2-valley-desc|sub1-random-L|sub2-order-RL|sub2-random-L|H7|sub1-descending-special|sub2-circle|H8|sub3-valley-asc|sub1-circle|sub1-random-half)$",
+    "Subtask 3"
+  ],
+  [
+    25,
+    "^(H4|sub4-valley-asc|sub4-descending-special|H5|sub4-random-L|sub4-random-R|sub4-order-RL|sub4-circle-flat|sub4-circle|sub4-valley-desc|sub4-random-half|sub4-order-LR)$",
+    "Subtask 4"
+  ],
+  [
+    19,
+    "^(H4|sub4-valley-asc|sub3-random-R|sub5-random-L|sub5-order-LR|sub5-order-RL|sub3-circle|sub4-descending-special|sub3-random-half|sub1-valley-asc|sub2-valley-asc|sub3-valley-desc|sub2-descending-special|sub2-order-LR|sub5-circle|sub1-valley-desc|sub5-random-half|H5|sub5-random-R|H3|sub1-order-LR|sub3-random-L|H6|sub3-circle-flat|sub2-random-half|sub1-random-R|sub4-random-L|sub4-random-R|sub3-order-LR|sub1-circle-flat|H2|H1|sub5-circle-flat|sample2|sub5-valley-asc|sub4-order-RL|sub3-descending-special|sub4-circle-flat|sub2-random-R|sub4-circle|sample1|sub2-circle-flat|sub1-order-RL|sub3-order-RL|sub2-valley-desc|sub1-random-L|sub2-order-RL|sub2-random-L|sub5-valley-desc|sub4-valley-desc|H7|sub4-random-half|sub1-descending-special|sub2-circle|sub5-descending-special|H8|sub4-order-LR|sub3-valley-asc|sub1-circle|sub1-random-half)$",
+    "Subtask 5"
+  ]
+]
+
