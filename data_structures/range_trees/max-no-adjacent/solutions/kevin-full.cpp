@@ -14,7 +14,7 @@ data combine(data left, data right) {
     data d;
     d.all = max(left.prefix + right.all, left.all + right.suffix);
     d.suffix = max(left.inner + right.all, left.suffix + right.suffix);
-    d.prefix = max(left.prefix + right.prefix, left.all + right.prefix);
+    d.prefix = max(left.prefix + right.prefix, left.all + right.inner);
     d.inner = max(left.inner + right.prefix, left.suffix + right.inner);
     return d;
 }
@@ -63,6 +63,7 @@ struct rt {
     }
 
     data query(int ql, int qr) {
+        //cerr << "Data at " << l << ", " << r << " is " << d.all << "\n";
         if(qr < l || r < ql)  {
             return EMPTY_DATA;
         } else if(ql <= l && r <= qr) {
