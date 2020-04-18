@@ -1,6 +1,6 @@
 .PHONY: all clean input output
 
-all: input output check zip
+all: input output check
 
 input:
 	./make-input.sh
