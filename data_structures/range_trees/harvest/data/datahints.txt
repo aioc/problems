@@ -1,0 +1,18 @@
+max.in: Maximise the answer to cause integer overflows
+random-1000000000-100000-1000000000-1000000000-29244.in: Large case where all harvests happen on the last possible day.
+random-1000000000-100000-1-1000000000-29240.in: Large random case.
+random-1000000000-100000-1-1000-29241.in: Large random case where all the harvests happen over the first 1000 days.
+random-1000000000-100000-1-10-29242.in: Large random case where all the harvests happen over the first ten days.
+random-1000000000-100000-999999970-1000000000-29243.in: Large random case where all the harvest happen very late.
+random-10-100000-1-10-29247.in: Small random case.
+random-1-100000-1-1000000000-29245.in: Large random case with only one tree.
+random-50-100000-1-49-29246.in: Small random case
+random-536870911-100000-1-1000000000-29250.in: Large random case where N is a power of 2 minus 1.
+random-536870911-100000-1-50-29251.in: Large random case where N is a power of 2 minus 1.
+random-536870912-100000-1-1000000000-29248.in: Large random case where N is a power of 2.
+random-536870912-100000-1-50-29249.in: Large random case where N is a power of 2.
+random-536870913-100000-1-1000000000-29252.in: Large random case where N is a power of 2 plus 1.
+random-536870913-100000-1-50-29253.in: Large random case where N is a power of 2 plus 1.
+sample.in: The sample case
+size-1000000000-100000-0-1000000000-1-100-29254.in: Large random case where each harvest covers a few trees.
+size-1000000000-100000-0-1000000000-999999950-1000000000-29255.in: Large random case where all the harvests happen very late.
