@@ -1,0 +1,20 @@
+random-10-20-1-20-72839.in: only one building has a main installed; random joins and checks
+random-10-150-13-50-72840.in: some buildings will have several mains installed; some pairs of buildings will be directly connected twice or more
+random-21-47-0-100-72841.in: no mains
+random-1-0-0-1-1.in: one building, no mains
+random-1000000-49999-1-50000-94.in: one main, many pipes
+random-1000000-49980-20-50000-95.in: 20 mains, many pipes
+random-1000000-49500-400-50000-96.in: 400 mains, many pipes
+random-1000000-40000-10000-50000-97.in: 10000 mains, many pipes
+random-1000000-10000-80000-10000-98.in: 80000 mains, 10000 pipes
+random-1000-50000-2-49998-201.in: dense case: 1000 buildings, 50000 pipes, 2 mains
+random-1000-50000-100-49900-202.in: dense case: 1000 buildings, 50000 pipes, 100 mains
+random-1000-50000-500-49500-203.in: dense case: 1000 buildings, 50000 pipes, 500 mains
+chains-50000-1-1-1-0-0-10000-10000-15364.in: one long chain of pipes
+chains-50000-223-2-2-200-200-20000-20000-15365.in: √n chains of pipes, few mains, √n pipes
+chains-50000-224-1-1-5000-5000-20000-20000-15366.in: √n chains of pipes, few mains, many pipes
+chains-50000-222-5000-5000-300-300-19000-18000-15367.in: √n chains of pipes, many mains, few joins between chains
+chains-50000-222-3000-3000-3000-3000-18000-17000-15368.in: √n chains, many mains, many joins between chains
+chains-70000-225-0-0-234-243-10000-10000-15369.in: √n chains of pipes, no mains
+chains-70000-225-0-1-5000-4000-10000-10000-15370.in: √n chains of pipes, one main added after
+chains-70000-225-0-1-5000-4000-0-20000-15371.in: √n chains, no checks during chain construction (joins between chains may occur between checks)
