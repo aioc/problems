@@ -79,3 +79,10 @@ You are guaranteed that:
 - $1 \leq Q \leq 100000$.
 - The numbers in the array will be between 1 and 123454321 inclusive.
 - $1 \leq l_i \leq r_i \leq N$, for each query.
+
+| Subtask | Points | Maximum N | Maximum Q |
+| ------- | ------ | --------- | --------- |
+| 1       | 25     | 1000      | 1000      |
+| 2       | 25     | 25000     | 25000     |
+| 3       | 50     | 100000    | 100000    |
+
