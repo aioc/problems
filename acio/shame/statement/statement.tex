@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[textwidth=460pt, voffset=0pt]{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\title{\vspace{-3ex}What. b. Shame!}
+\begin{document}
+\author{\vspace{-5ex}}
+\date{\vspace{-5ex}}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{AC-IO 2020 Contest 2}
+\rfoot{Page \thepage}
+\begin{center}
+\huge{What. b. Shame!}\small\\
+\vspace{5ex}
+\begin{tabular}{l*{6}{c}r}
+Type & Input file& Output file & Time limit & Memory limit\\
+\hline
+Batch & stdin & stdout & 1 second & 512 MB
+\end{tabular}
+\end{center}
+\section*{Statement}
+
+The people are real. The prizes are real. The winnings are final. This is "What. b. Shame!": the latest installment in a long line of failed Australian gameshows. Competing on today's episode, you find a line of $N$ boxes, numbered 1 to $N$, each with an nonnegative (possibly zero) number of dollars inside them. The $i$th box contains $A_i$ dollars. The devious host Fudge Moody gives you $M$ \textit{ranges} of the boxes, and allows you to pick any number of the ranges \textbf{as long as none of the ranges overlap}. \\
+\\ For each range that you choose, instead of giving you any of the money contained in your chosen boxes, the devious Fudge Moody will say "What. b. Shame!" and give you a \textbf{completely different box} from backstage (i.e. does not come from the $N$ boxes that you have access to), with a nonnegative amount of money (possibly zero) that is \textbf{not equal} to any of the amounts of money in any box in your range. You know the game show recently received major budget cuts, so Moody will try to minimise the amount you go home with. \\
+\\ Write a program to determine the maximum profit that you can guarantee for yourself, given the values inside the boxes and the ranges that Moody gives you.
+\section*{Input}
+The first line contains 2 integers $N\ M$. The next line contains $N$ non-negative integers $A_1 \ldots A_N$. The next $M$ lines each contain 2 integers $l_i\ r_i$, indicating the leftmost box and rightmost box in a range that Moody gives you.
+\section*{Output}
+Output 1 integer, the maximum profit that you can achieve. 
+\section*{Sample Input}
+{\fontfamily{qcr}\selectfont
+6 4\\
+0 2 1 0 0 3\\
+1 5\\
+1 3\\
+2 3\\
+5 6\\
+}
+\section*{Sample Output}
+{\fontfamily{qcr}\selectfont
+4 \\
+}
+\section*{Explanation}
+In the above example, range 1 and 2 both guarantee you 3 dollars, range 3 guarantees you 0 dollars and range 4 guarantees you 1 dollar. \\
+\\ Choosing ranges 2 and 4 is optimal. You are guaranteed at least 3 dollars with range 2 and at least 1 dollar with range 4, which means you can earn 4 dollars.
+\section*{Constraints}
+\begin{itemize}
+\item $1\leq N , M\leq 2\times 10^5$
+\item $0 \leq A_i < N$ for all $i$
+\item $1 \leq l_i \leq r_i \leq N$ for all $i$
+\end{itemize}
+\section*{Subtasks}
+\begin{tabular}{l*{6}{c}r}
+Number & Points & Additional Constraints\\
+\hline
+1 & 10 & $N \leq 100$ and $M \leq 1000$ \\
+2 & 24 & $N \leq 1000$ \\
+3 & 17 & $N,M \leq 5 \times 10^4$ \\
+4 & 26 & $A_i$ are unique for all $i$. That is, each box contains a unique amount of money. \\
+5 & 23 & No further constraints \\
+
+\end{tabular}
+\end{document}

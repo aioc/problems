@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[textwidth=460pt, voffset=0pt]{geometry}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\title{\vspace{-3ex}Snap Tokens}
+\begin{document}
+\author{\vspace{-5ex}}
+\date{\vspace{-5ex}}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{AC-IO 2020 Contest 2}
+\rfoot{Page \thepage}
+\begin{center}
+\huge{Snap Tokens}\small\\
+\vspace{5ex}
+\begin{tabular}{l*{6}{c}r}
+Type & Input file& Output file& Time limit & Memory limit\\
+\hline
+Batch & stdin & stdout & 1 second & 128 MB
+\end{tabular}
+\end{center}
+\section*{Statement}
+We play an game of \textit{generalised N-Snap-Tag}\footnote{See AIO 2015, \textit{Snap Dragons II}} using tokens on an \textbf{undirected connected} graph of $N$ vertices (numbered 1 to $N$) and $N$ edges. No edge goes from a vertex to itself and there is at most 1 edge between any two vertices. Initially, there are $K$ identical tokens, each on a different vertex. At each moment, you may choose a token and move it to an adjacent vertex. If two tokens are on the same vertex, they annihilate each other and are \textbf{both instantly removed} from the graph. It takes 1 second to move any token. \\
+\\Given the initial state of a game, determine the minimum amount of time required to remove all tokens from the graph. It is guaranteed that it is always possible to do so.
+\section*{Input}
+The first line contains 2 integers $N\ K$. The next line contains $N$ integers $v_1\ ... \ v_N$, indicating for each $i$ that there is an edge between vertices $i$ and $v_i$. The next line contains $K$ distinct integers $p_1 \ ... \ p_K$, the starting vertices of each token. 
+\section*{Output}
+Output 1 integer, the minimum amount of time in seconds to remove all tokens.
+\section*{Sample Input}
+{\fontfamily{qcr}\selectfont
+8 4\\
+3 3 4 5 3 5 6 6\\
+1 4 8 7
+}
+\section*{Sample Output}
+{\fontfamily{qcr}\selectfont
+4
+}
+\section*{Explaination}
+It is optimal to move the tokens on vertices 7,8 to vertex 8 and the tokens on 1,4 to vertex 4.
+\section*{Constraints}
+\begin{itemize}
+\item $2\leq K \leq N \leq 10^5$
+\item $1 \leq v_i, p_i \leq N$
+\item $K$ is even
+\end{itemize}
+\section*{Subtasks}
+\begin{tabular}{l*{6}{c}r}
+Number & Points & Max $N$& Max $K$ & Additional constraints\\
+\hline
+1 & 16 & 20 & 20 & None \\
+2 & 20 & 1000 & 1000 & $ v_i = (i\ \text{mod}\ N) + 1$ for all $i$. That is, the graph is a cycle. \\
+3 & 16 & 1000 & 1000 & $K = N$. That is, there is a token on every vertex.\\
+4 & 29 & 1000 & 1000 & None \\
+5 & 19 & $10^5$ & $10^5$ & None \\
+
+\end{tabular}
+\end{document}
