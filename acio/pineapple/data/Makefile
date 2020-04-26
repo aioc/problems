@@ -8,7 +8,7 @@ input:
 
 # ulimit to prevent stack overflow
 output: input
-	sh ./make-output.sh
+	bash ./make-output.sh
 
 check: input
 
