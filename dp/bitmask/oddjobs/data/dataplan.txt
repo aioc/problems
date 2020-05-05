@@ -1,0 +1,34 @@
+Handmade cases
+--------------
+
+Sample
+3
+80 50 30
+40 50 70
+20 20 10
+
+Min case
+1
+10
+
+Take biggest
+2
+40 70
+10 50
+
+Ignore smallest
+2
+10 30
+30 80
+
+
+Larger cases
+------------
+
+N = 15, everything is 100 mistakes
+N = 15, main  diagonal is 10, everything else 11
+N = 15, minor diagonal is 10, everything else 11
+
+
+Random case for N = 4..15
+

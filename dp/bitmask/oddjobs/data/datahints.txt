@@ -1,0 +1,19 @@
+diag-15-100-100-1-8437.in: Everyone always makes 100 mistakes
+diag-15-10-11-0-8436.in: Best answer is to assign the i-th job to the i-th intern
+diag-15-10-11-1-8435.in: Best answer is to assign the first intern the last job, the second intern to the second last job, and so on.
+ignore-smallest.in: Break solutions that try to greedily minimise mistakes by taking small penalties.
+min-case.in: Only one intern/job
+random-10-8429.in: Large random case
+random-11-8430.in: Large random case
+random-12-8431.in: Large random case
+random-13-8432.in: Large random case
+random-14-8433.in: Large random case
+random-15-8434.in: Large random case
+random-4-8423.in: Small random case
+random-5-8424.in: Small random case
+random-6-8425.in: Small random case
+random-7-8426.in: Small random case
+random-8-8427.in: Medium sized random case
+random-9-8428.in: Medium sized random case
+sample.in: The example case from the problem statement
+take-biggest.in: Break solutions that try to greedily minimise mistakes by avoiding large penalties.
