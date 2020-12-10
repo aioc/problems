@@ -1,0 +1,11 @@
+{
+    "short_name": "cfgoodsubarrays",
+    "subtask_points": [
+        30,
+        30,
+        40
+    ],
+    "timelimit": 1,
+    "memlimit": 128,
+    "problem_name": "Exquisite Subarrays"
+}
