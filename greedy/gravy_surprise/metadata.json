@@ -1,0 +1,13 @@
+{
+    "short_name": "alphatrial20gravy",
+    "subtask_points": [
+        16,
+        30,
+        32,
+        8,
+        14
+    ],
+    "timelimit": 1.0,
+    "problem_name": "Gravy Surprise",
+    "memlimit": 1024.0
+}
