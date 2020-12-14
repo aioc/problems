@@ -45,6 +45,8 @@ Each integer will be between $1$ and $100\,000$ inclusive, representing the tast
 
 Your output should consist of a single line containing a single integer: the maximum value of the lowest tastiness rating amongst the $K$ pieces that can be achieved.
 
+Note: We suggest making use of `long long int` as the answer can be quite large.
+
 ## Subtasks and Constraints
 
 Additional constraints for each subtask are given below.
